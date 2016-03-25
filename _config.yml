@@ -7,12 +7,12 @@ baseurl:
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'xxx'
-  email: xxx
-  twitter_username: xxx
-  facebook_username: xxx
-  github_username:  xxx
-  linkedin_username:  xxx
+  name: 'yaoskyer'
+  email: yaoskyer@163.com
+  twitter_username: yaoskyer
+  facebook_username: yaoskyer
+  github_username:  yaoskyer
+  linkedin_username:  yaoskyer
 
 defaults:
   -
