@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include newhead.html %}
+
+  <body>
+	<body style="">
+        <div>
+            <div style="width:30%;">
+                <ul id="tree" class="ztree" style="width: 260px; overflow: auto; position: fixed; z-index: 2147483647; border: 0px none; left: 0px; bottom: 0px;">
+                <!-- 目录内容在网页另存为之后将插入到此处 -->
+                </ul>
+            </div>
+            <div id="readme" style="width:70%;margin-left:25%;">
+                <article class="markdown-body">
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+    <script src="http://ohdtph5g8.bkt.clouddn.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ohdtph5g8.bkt.clouddn.com/jquery.ztree.all-3.5.min.js"></script>
+    <script src="http://ohdtph5g8.bkt.clouddn.com/jquery.ztree_toc.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#tree').ztree_toc({
+                is_auto_number:false,
+                documment_selector:'.markdown-body',
+                is_expand_all: true
+            });
+        });
+    </script>
+  </body>
+
+</html>
