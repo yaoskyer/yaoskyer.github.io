@@ -1,3 +1,15 @@
+
+---
+layout: post
+title: "设置标题"
+date: 2017-02-15
+categories:
+  - Life
+description:  描述性文字
+image: http://7xqmgj.com1.z0.glb.clouddn.com/2016-12-27-20160610-2016-06-10%20143904-compressed.jpg
+image-sm: http://7xqmgj.com1.z0.glb.clouddn.com/2016-12-27-20160610-2016-06-10%20143904-compressed.jpg
+---
+
 <h1>1常用</h1>
 
 <h3>1.1用ARC自动管理内存</h3>
